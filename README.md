@@ -8,3 +8,5 @@ I'm David Ralph (known as ohlookitsderpy online), and I am a developer from the 
 - 📫 How to reach me: [Discord Server](https://discord.gg/HJmmmTB)
 - 😄 Pronouns: he/him, they/them
 - ⚡ Fun fact: I have an epic retro console collection
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ohlookitsderpy)](https://github.com/anuraghazra/github-readme-stats)
