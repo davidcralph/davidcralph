@@ -9,4 +9,6 @@ I'm David Ralph (known as ohlookitsderpy online), and I am a developer from the 
 - 😄 Pronouns: he/him, they/them
 - ⚡ Fun fact: I have an epic retro console collection
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ohlookitsderpy)](https://github.com/anuraghazra/github-readme-stats)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ohlookitsderpy&count_private=true)
+
+![Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=ohlookitsderpy)
