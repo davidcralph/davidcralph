@@ -9,6 +9,6 @@ I'm David Ralph, and I am a developer from the United Kingdom. I like coding, [m
 - 😄 Pronouns: he/him, they/them
 - ⚡ Fun fact: I have an epic retro console collection
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ohlookitsderpy&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=davidjcralph&count_private=true)
 
-![Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=ohlookitsderpy)
+![Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=davidjcralph)
