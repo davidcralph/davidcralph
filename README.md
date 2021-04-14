@@ -1,5 +1,5 @@
 ### Hello there! 👋
-I'm David Ralph, and I am a developer from the United Kingdom. I like coding, [music](https://last.fm/user/ohlookitsderpy), reading and [anime](https://myanimelist.net/animelist/ohlookitsderpy)!
+I'm David Ralph, and I am a developer from the United Kingdom. I like coding, [music](https://last.fm/user/ohlookitsderpy), reading and [anime](https://myanimelist.net/profile/davidjcralph)!
 
 - 🔭 I’m currently working on [Mue](https://github.com/mue) and some private stuff coming soon™️
 - 🌱 I’m currently learning Go
