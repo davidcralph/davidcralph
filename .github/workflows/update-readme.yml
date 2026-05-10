@@ -1,0 +1,29 @@
+name: Update README Image Query
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-query:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Update Query Parameter
+        run: |
+          # Generates a current timestamp
+          TIMESTAMP=$(date +%s)
+          # Uses sed to find the worker URL and update/add the query param
+          # It looks for the URL and replaces everything up to the closing quote
+          sed -i "s|davidcralph-worker.david-ralph.workers.dev[^\" ]*|davidcralph-worker.david-ralph.workers.dev?t=$TIMESTAMP|g" README.md
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update readme image query param" || exit 0
+          git push
