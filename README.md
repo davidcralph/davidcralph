@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://davidcralph-worker.david-ralph.workers.dev"/>
+  <img src="https://davidcralph-worker.david-ralph.workers.dev?t=1778442649"/>
 </p>
 
 <h3 align="center">Hello! 👋</h3>
