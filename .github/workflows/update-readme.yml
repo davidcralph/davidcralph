@@ -14,10 +14,7 @@ jobs:
 
       - name: Update Query Parameter
         run: |
-          # Generates a current timestamp
           TIMESTAMP=$(date +%s)
-          # Uses sed to find the worker URL and update/add the query param
-          # It looks for the URL and replaces everything up to the closing quote
           sed -i "s|davidcralph-worker.david-ralph.workers.dev[^\" ]*|davidcralph-worker.david-ralph.workers.dev?t=$TIMESTAMP|g" README.md
 
       - name: Commit and Push
