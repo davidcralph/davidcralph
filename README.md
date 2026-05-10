@@ -1,12 +1,7 @@
 ![img](https://pbs.twimg.com/profile_banners/829351986004889602/1603291422/1500x500)
-## Hello there! 👋
-I'm **David Ralph**, a student and developer from the United Kingdom. My interests include: programming, gaming, music. photography, watching anime and reading!
 
-More information about me is available on my [website](https://davidcralph.co.uk).
+<h3 align="center">Hello! 👋</h3>
 
-<details>
-  <summary>Click to see some cool stats</summary>
-  
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=davidcralph&count_private=true)
-  ![Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=davidcralph)
-</details>
+<h4 align="center">I'm David, a full stack developer from the United Kingdom.</h4>
+
+<p align="center">https://davidcralph.co.uk</p>
