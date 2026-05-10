@@ -1,0 +1,5 @@
+{
+  "name": "davidcralph-worker",
+  "compatibility_date": "2026-05-10",
+  "main": "./index.js"
+}

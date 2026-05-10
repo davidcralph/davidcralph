@@ -1,0 +1,8 @@
+# Directories
+.wrangler/
+node_modules/
+
+# Files
+bun.lock
+yarn.lock
+package-lock.json

@@ -1,4 +1,6 @@
-![img](https://pbs.twimg.com/profile_banners/829351986004889602/1603291422/1500x500)
+<p align="center">
+  <img src="https://davidcralph-worker.david-ralph.workers.dev"/>
+</p>
 
 <h3 align="center">Hello! 👋</h3>
 
