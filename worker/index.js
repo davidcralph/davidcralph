@@ -41,11 +41,34 @@ const photos = [
   },
 ];
 
+const escapeXml = (s) =>
+  s.replace(/[<>&'"]/g, (ch) => {
+    switch (ch) {
+      case '<':
+        return '&lt;';
+      case '>':
+        return '&gt;';
+      case '&':
+        return '&amp;';
+      case "'":
+        return '&apos;';
+      default:
+        return '&quot;';
+    }
+  });
+
+app.get('/overlay', (c) => {
+  const text = c.req.query('text') ?? '';
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="450" height="90" viewBox="0 0 450 90"><rect width="450" height="90" fill="#000"/><text x="225" y="45" fill="#fff" font-family="sans-serif" font-size="28" font-weight="600" text-anchor="middle" dominant-baseline="central">${escapeXml(text)}</text></svg>`;
+  return c.body(svg, 200, { 'Content-Type': 'image/svg+xml' });
+});
+
 app.get('/', async (c) => {
   const randomPhoto = photos[Math.floor(Math.random() * photos.length)];
   const { id, location } = randomPhoto;
 
-  const textOverlayUrl = `https://placehold.co/450x90/000/ffffff/png?text=${encodeURIComponent('Taken in ' + location)}&font=poppins`;
+  const overlaySvgUrl = `${new URL(c.req.url).origin}/overlay?text=${encodeURIComponent('Taken in ' + location)}`;
+  const textOverlayUrl = `https://images.weserv.nl/?url=${encodeURIComponent(overlaySvgUrl)}&output=png`;
   const imageUrl = 'https://cdn.muetab.com/img/hd/' + id + '.webp';
 
   const res = await fetch(
